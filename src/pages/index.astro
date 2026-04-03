@@ -1,7 +1,5 @@
 ---
 // src/pages/index.astro
-// C'est ici le "Frontmatter" (JavaScript qui s'exécute au build)
-// Tu peux importer des composants ou définir des variables ici.
 import "../styles/global.css";
 
 const projects = [
@@ -9,7 +7,7 @@ const projects = [
     title: "Broloc",
     description: "Broloc est un party game stratégique et compétitif, mais avec une particularité : ici, le meilleur colocataire n'est pas celui qui range… c'est celui qui sabote !",
     tags: ["Unreal Engine 5","Coop Local","C++", "Party game"],
-    videoUrl: "https://drive.google.com/file/d/1BITt79XeqNWvfl0EwJt67RNAx3eJHLTb/preview", // Tu devras mettre ta vidéo ici
+    videoUrl: "https://drive.google.com/file/d/1BITt79XeqNWvfl0EwJt67RNAx3eJHLTb/preview", // Lien vers la vidéo de présentation
     playUrl: "https://drive.google.com/file/d/1JWwJ79N0e4MmdFoURaYLSReWqtVd7i_L/view?usp=drive_link", // Lien vers le jeu
     isWebGL: false, // Indicateur si jouable directement
 	onePager: "/portfolio/docs/OnePager_BROLOC.pdf" // Lien vers le one-pager
@@ -18,10 +16,10 @@ const projects = [
     title: "Panik At The Market",
     description: "PATM : Le chaos en rayon ! PATM est un party game survolté où faire ses courses devient un sport extrême. Votre mission : compléter votre liste et foncer à la caisse avant la fin du chrono. Mais attention, la physique est contre vous !",
     tags: ["Unreal Engine 5","Coop Local","C++"],
-    videoUrl: "", // Tu devras mettre ta vidéo ici
-    playUrl: "", // Lien vers le jeu
-    isWebGL: false, // Indicateur si jouable directement
-	onePager: "/portfolio/docs/OnePager_PATM.pdf" // Lien vers le one-pager
+    videoUrl: "",
+    playUrl: "", 
+    isWebGL: false,
+	onePager: "/portfolio/docs/OnePager_PATM.pdf"
   },
    {
     title: "Network Shooter",
@@ -29,17 +27,17 @@ const projects = [
     tags: ["Unreal Engine 5","Réseau","Réplication","Lag compensation","C++"],
     videoUrl: "https://drive.google.com/file/d/1aX4XXdPQhqUeCLQn_Q3b4uEY5pOmr7Nv/preview",
     playUrl: "https://drive.google.com/file/d/1rLPAmNh2pA_oKraQniBGph4UiLyNU3kB/view?usp=drive_link",
-    isWebGL: false, // Indicateur si jouable directement
-	onePager: "/portfolio/docs/OnePager_Network Shooter.pdf" // Lien vers le one-pager
+    isWebGL: false, 
+	onePager: "/portfolio/docs/OnePager_Network Shooter.pdf" 
   },
     {
     title: "Doom-2077",
     description: "Doom-2077 is a multiplayer video game that is inspired by the principles of the original Doom, released in 1993. The game features retro graphics similar to Doom, but with modern gameplay mechanics.\n In Doom2077, the goal is simple: kill as many enemy players as possible. The game is played online, with 2 to 4 players. The single player mode allows you to discover the map.",
     tags: ["C","Multiplayer","SDL2"],
-    videoUrl: "https://drive.google.com/file/d/1O8ei8NHAw6zsIEx1JeqVfvLRoma8hb3r/preview", // Tu devras mettre ta vidéo ici
-    playUrl: "https://github.com/Esteban795/DOOM-2077", // Lien vers le jeu
-    isWebGL: false, // Indicateur si jouable directement
-	onePager: "" // Lien vers le one-pager
+    videoUrl: "https://drive.google.com/file/d/1O8ei8NHAw6zsIEx1JeqVfvLRoma8hb3r/preview",
+    playUrl: "https://github.com/Esteban795/DOOM-2077",
+    isWebGL: false, 
+	onePager: "" 
   }
 ];
 
