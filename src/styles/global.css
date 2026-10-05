@@ -1,1 +1,4 @@
 @import "tailwindcss";
+
+html[lang="fr"] .lang-en { display: none !important; }
+html[lang="en"] .lang-fr { display: none !important; }
