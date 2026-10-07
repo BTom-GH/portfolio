@@ -4,6 +4,6 @@ Point important à noter : j'ai également quelques autres projets scolaires, do
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-A simple little portfolio created with `Astro` to have a neat space to share the games I helped develop, while learning the framework and GitHub CI/CD along the way.
+A simple little portfolio created with `Astro` to have a neat space to share the games I have worked on, while learning the framework and GitHub CI/CD along the way.
 
 Important note: I also have a few other school projects, including a `"mini-python" compiler` and a JavaFX `codenames` game, hosted on my school's GitLab. I can share them if needed, just ask!
